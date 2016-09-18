@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71683291D8E37680080F71B /* UniqueCharsTester.h in Headers */ = {isa = PBXBuildFile; fileRef = B71683271D8E37680080F71B /* UniqueCharsTester.h */; };
+		B716832A1D8E37680080F71B /* UniqueCharsTester.m in Sources */ = {isa = PBXBuildFile; fileRef = B71683281D8E37680080F71B /* UniqueCharsTester.m */; };
+		B716832B1D8E37680080F71B /* UniqueCharsTester.m in Sources */ = {isa = PBXBuildFile; fileRef = B71683281D8E37680080F71B /* UniqueCharsTester.m */; };
+		B716832D1D8E38950080F71B /* UniqueCharsTesterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */; };
 		B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3D21D8CDFA4001A25C0 /* Playground.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B716B3DA1D8CDFA4001A25C0 /* Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B716B3CF1D8CDFA4001A25C0 /* Playground.framework */; };
 		B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3E91D8CDFD1001A25C0 /* SinglyLinkedList.h */; };
@@ -29,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B71683271D8E37680080F71B /* UniqueCharsTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueCharsTester.h; sourceTree = "<group>"; };
+		B71683281D8E37680080F71B /* UniqueCharsTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueCharsTester.m; sourceTree = "<group>"; };
+		B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueCharsTesterTest.m; sourceTree = "<group>"; };
 		B716B3CF1D8CDFA4001A25C0 /* Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B716B3D21D8CDFA4001A25C0 /* Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playground.h; sourceTree = "<group>"; };
 		B716B3D41D8CDFA4001A25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +102,8 @@
 				B716B3D21D8CDFA4001A25C0 /* Playground.h */,
 				B71683231D8E1E5E0080F71B /* SinglyLinkedList */,
 				B716B3D41D8CDFA4001A25C0 /* Info.plist */,
+				B71683271D8E37680080F71B /* UniqueCharsTester.h */,
+				B71683281D8E37680080F71B /* UniqueCharsTester.m */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -103,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B716B3F31D8CE0B5001A25C0 /* SinglyLinkedListTest.m */,
+				B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */,
 				B716B3E01D8CDFA4001A25C0 /* Info.plist */,
 			);
 			path = PlaygroundTests;
@@ -115,6 +125,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71683291D8E37680080F71B /* UniqueCharsTester.h in Headers */,
 				B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */,
 				B716B3F01D8CDFD1001A25C0 /* SinglyLinkedListElement.h in Headers */,
 				B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */,
@@ -218,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B716B3EE1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
+				B716832A1D8E37680080F71B /* UniqueCharsTester.m in Sources */,
 				B716B3F11D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B716B3EF1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
+				B716832B1D8E37680080F71B /* UniqueCharsTester.m in Sources */,
+				B716832D1D8E38950080F71B /* UniqueCharsTesterTest.m in Sources */,
 				B716B3F21D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
 				B716B3F41D8CE0B5001A25C0 /* SinglyLinkedListTest.m in Sources */,
 			);
