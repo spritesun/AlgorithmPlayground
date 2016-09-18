@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3D21D8CDFA4001A25C0 /* Playground.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B716B3DA1D8CDFA4001A25C0 /* Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B716B3CF1D8CDFA4001A25C0 /* Playground.framework */; };
-		B716B3DF1D8CDFA4001A25C0 /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3DE1D8CDFA4001A25C0 /* PlaygroundTests.m */; };
+		B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3E91D8CDFD1001A25C0 /* SinglyLinkedList.h */; };
+		B716B3EE1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3EA1D8CDFD1001A25C0 /* SinglyLinkedList.m */; };
+		B716B3EF1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3EA1D8CDFD1001A25C0 /* SinglyLinkedList.m */; };
+		B716B3F01D8CDFD1001A25C0 /* SinglyLinkedListElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3EB1D8CDFD1001A25C0 /* SinglyLinkedListElement.h */; };
+		B716B3F11D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3EC1D8CDFD1001A25C0 /* SinglyLinkedListElement.m */; };
+		B716B3F21D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3EC1D8CDFD1001A25C0 /* SinglyLinkedListElement.m */; };
+		B716B3F41D8CE0B5001A25C0 /* SinglyLinkedListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B716B3F31D8CE0B5001A25C0 /* SinglyLinkedListTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +33,12 @@
 		B716B3D21D8CDFA4001A25C0 /* Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playground.h; sourceTree = "<group>"; };
 		B716B3D41D8CDFA4001A25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B716B3D91D8CDFA4001A25C0 /* PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B716B3DE1D8CDFA4001A25C0 /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
 		B716B3E01D8CDFA4001A25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B716B3E91D8CDFD1001A25C0 /* SinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedList.h; sourceTree = "<group>"; };
+		B716B3EA1D8CDFD1001A25C0 /* SinglyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyLinkedList.m; sourceTree = "<group>"; };
+		B716B3EB1D8CDFD1001A25C0 /* SinglyLinkedListElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedListElement.h; sourceTree = "<group>"; };
+		B716B3EC1D8CDFD1001A25C0 /* SinglyLinkedListElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyLinkedListElement.m; sourceTree = "<group>"; };
+		B716B3F31D8CE0B5001A25C0 /* SinglyLinkedListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyLinkedListTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B71683231D8E1E5E0080F71B /* SinglyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				B716B3E91D8CDFD1001A25C0 /* SinglyLinkedList.h */,
+				B716B3EA1D8CDFD1001A25C0 /* SinglyLinkedList.m */,
+				B716B3EB1D8CDFD1001A25C0 /* SinglyLinkedListElement.h */,
+				B716B3EC1D8CDFD1001A25C0 /* SinglyLinkedListElement.m */,
+			);
+			name = SinglyLinkedList;
+			sourceTree = "<group>";
+		};
 		B716B3C51D8CDFA4001A25C0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				B716B3D21D8CDFA4001A25C0 /* Playground.h */,
+				B71683231D8E1E5E0080F71B /* SinglyLinkedList */,
 				B716B3D41D8CDFA4001A25C0 /* Info.plist */,
 			);
 			path = Playground;
@@ -80,7 +102,7 @@
 		B716B3DD1D8CDFA4001A25C0 /* PlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				B716B3DE1D8CDFA4001A25C0 /* PlaygroundTests.m */,
+				B716B3F31D8CE0B5001A25C0 /* SinglyLinkedListTest.m */,
 				B716B3E01D8CDFA4001A25C0 /* Info.plist */,
 			);
 			path = PlaygroundTests;
@@ -94,6 +116,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */,
+				B716B3F01D8CDFD1001A25C0 /* SinglyLinkedListElement.h in Headers */,
+				B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B716B3EE1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
+				B716B3F11D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B716B3DF1D8CDFA4001A25C0 /* PlaygroundTests.m in Sources */,
+				B716B3EF1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
+				B716B3F21D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
+				B716B3F41D8CE0B5001A25C0 /* SinglyLinkedListTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +404,7 @@
 				B716B3E51D8CDFA4001A25C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B716B3E61D8CDFA4001A25C0 /* Build configuration list for PBXNativeTarget "PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +413,7 @@
 				B716B3E81D8CDFA4001A25C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
