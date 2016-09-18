@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface UniqueCharsTester : NSObject
-- (BOOL)isStrAllUniqueChars:(NSString *)str;
+- (BOOL)isStrAllUniqueChars1:(NSString *)str;
+- (BOOL)isStrAllUniqueChars2:(NSString *)str;
+- (BOOL)isStrAllUniqueChars3:(NSString *)str;
 @end
