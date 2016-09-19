@@ -11,6 +11,10 @@
 		B716832A1D8E37680080F71B /* UniqueCharsTester.m in Sources */ = {isa = PBXBuildFile; fileRef = B71683281D8E37680080F71B /* UniqueCharsTester.m */; };
 		B716832B1D8E37680080F71B /* UniqueCharsTester.m in Sources */ = {isa = PBXBuildFile; fileRef = B71683281D8E37680080F71B /* UniqueCharsTester.m */; };
 		B716832D1D8E38950080F71B /* UniqueCharsTesterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */; };
+		B71683301D8FC89D0080F71B /* PermutationChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = B716832E1D8FC89D0080F71B /* PermutationChecker.h */; };
+		B71683311D8FC89D0080F71B /* PermutationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B716832F1D8FC89D0080F71B /* PermutationChecker.m */; };
+		B71683321D8FC8A90080F71B /* PermutationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B716832F1D8FC89D0080F71B /* PermutationChecker.m */; };
+		B71683341D8FCAEE0080F71B /* PermutationCheckerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B71683331D8FCAEE0080F71B /* PermutationCheckerTest.m */; };
 		B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3D21D8CDFA4001A25C0 /* Playground.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B716B3DA1D8CDFA4001A25C0 /* Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B716B3CF1D8CDFA4001A25C0 /* Playground.framework */; };
 		B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = B716B3E91D8CDFD1001A25C0 /* SinglyLinkedList.h */; };
@@ -36,6 +40,9 @@
 		B71683271D8E37680080F71B /* UniqueCharsTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueCharsTester.h; sourceTree = "<group>"; };
 		B71683281D8E37680080F71B /* UniqueCharsTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueCharsTester.m; sourceTree = "<group>"; };
 		B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueCharsTesterTest.m; sourceTree = "<group>"; };
+		B716832E1D8FC89D0080F71B /* PermutationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutationChecker.h; sourceTree = "<group>"; };
+		B716832F1D8FC89D0080F71B /* PermutationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermutationChecker.m; sourceTree = "<group>"; };
+		B71683331D8FCAEE0080F71B /* PermutationCheckerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermutationCheckerTest.m; sourceTree = "<group>"; };
 		B716B3CF1D8CDFA4001A25C0 /* Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B716B3D21D8CDFA4001A25C0 /* Playground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playground.h; sourceTree = "<group>"; };
 		B716B3D41D8CDFA4001A25C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +111,8 @@
 				B716B3D41D8CDFA4001A25C0 /* Info.plist */,
 				B71683271D8E37680080F71B /* UniqueCharsTester.h */,
 				B71683281D8E37680080F71B /* UniqueCharsTester.m */,
+				B716832E1D8FC89D0080F71B /* PermutationChecker.h */,
+				B716832F1D8FC89D0080F71B /* PermutationChecker.m */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -113,6 +122,7 @@
 			children = (
 				B716B3F31D8CE0B5001A25C0 /* SinglyLinkedListTest.m */,
 				B716832C1D8E38950080F71B /* UniqueCharsTesterTest.m */,
+				B71683331D8FCAEE0080F71B /* PermutationCheckerTest.m */,
 				B716B3E01D8CDFA4001A25C0 /* Info.plist */,
 			);
 			path = PlaygroundTests;
@@ -127,6 +137,7 @@
 			files = (
 				B71683291D8E37680080F71B /* UniqueCharsTester.h in Headers */,
 				B716B3D31D8CDFA4001A25C0 /* Playground.h in Headers */,
+				B71683301D8FC89D0080F71B /* PermutationChecker.h in Headers */,
 				B716B3F01D8CDFD1001A25C0 /* SinglyLinkedListElement.h in Headers */,
 				B716B3ED1D8CDFD1001A25C0 /* SinglyLinkedList.h in Headers */,
 			);
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71683311D8FC89D0080F71B /* PermutationChecker.m in Sources */,
 				B716B3EE1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
 				B716832A1D8E37680080F71B /* UniqueCharsTester.m in Sources */,
 				B716B3F11D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
@@ -240,8 +252,10 @@
 			files = (
 				B716B3EF1D8CDFD1001A25C0 /* SinglyLinkedList.m in Sources */,
 				B716832B1D8E37680080F71B /* UniqueCharsTester.m in Sources */,
+				B71683341D8FCAEE0080F71B /* PermutationCheckerTest.m in Sources */,
 				B716832D1D8E38950080F71B /* UniqueCharsTesterTest.m in Sources */,
 				B716B3F21D8CDFD1001A25C0 /* SinglyLinkedListElement.m in Sources */,
+				B71683321D8FC8A90080F71B /* PermutationChecker.m in Sources */,
 				B716B3F41D8CE0B5001A25C0 /* SinglyLinkedListTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
